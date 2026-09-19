@@ -5,6 +5,8 @@
 [![Tests](https://github.com/cheerstopriya/authdrift/actions/workflows/tests.yml/badge.svg)](https://github.com/cheerstopriya/authdrift/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+![AuthDrift: authority valid, agent observes, authority revoked, same run resumes, effect committed?](docs/assets/authdrift-social-preview.jpg)
+
 **Can your AI agent still act after you revoke its authority?**
 
 AuthDrift is an open-source Python test harness for a specific failure mode:
@@ -29,6 +31,15 @@ These are controlled fixture results, not external vulnerability discoveries.
 [Test your own agent](docs/integrating-your-agent.md) ·
 [Read the methodology](research/methodology.md) ·
 [Report an integration](https://github.com/cheerstopriya/authdrift/issues/new?template=integration-report.yml)
+
+### Start here
+
+| If you want to... | Go here |
+| --- | --- |
+| See the failure in two controlled implementations | [Run the vulnerable and corrected refund demo](#installation-and-runnable-demo) |
+| Test a real Python agent or tool workflow | [Follow the integration guide](docs/integrating-your-agent.md) |
+| Share a result, including a blocked integration | [Open an integration report](https://github.com/cheerstopriya/authdrift/issues/new?template=integration-report.yml) |
+| Help build the next experiments | [Browse `help wanted` issues](https://github.com/cheerstopriya/authdrift/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22help%20wanted%22) |
 
 ## A 30-second example
 
